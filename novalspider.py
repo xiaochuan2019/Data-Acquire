@@ -46,7 +46,7 @@ class Spider_novel(object):
 			numbers - 章节数(int)
 			link_dict - 保存章节名称[key]和下载链接[value]的字典(OrderedDict)
 		Modify:
-			2018-10-28
+			2019-9-19
 		"""
 
 		link_dict = collections.OrderedDict()#有序字典用来存放链接
@@ -86,7 +86,7 @@ class Spider_novel(object):
 		Returns:
 			无
 		Modify:
-			2018-10-28
+			2019-9-19
 		"""
 
 		with open(path, 'a', encoding='utf-8') as f:
