@@ -27,7 +27,7 @@ class Spider_novel(object):
 		Returns:
 			text - 章节内容(string)
 		Modify:
-			2018-10-28
+			2019-9-19
 		"""	
 
 		text_html = requests.get(text_url, headers = self.__head).content.decode('gbk', 'ignore')
